@@ -12,21 +12,23 @@ public class GreetingappApplication {
 		SpringApplication.run(GreetingappApplication.class, args);
 	}
 
-	@GetMapping("/annie")
+	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome annie";
+		return "welcome to spring boot greeting app";
 	}
-	@GetMapping("/anu")
+	@GetMapping("/greeting")
 	public String greeting() {
-		return "welcome anu";
+		return "greetings from spring boot greeting app";
 	}
-	@GetMapping("/hema")
+	@GetMapping("/hello")
 	public String hello() {
-		return "welcome hema";
+		return "hello from spring boot greeting app";
 	}
-	@GetMapping("/riya")
-	public String hi() {
-		return "welcome riya";
+	@GetMapping("/final")
+	public String final_assessment() {
+		return "This is final assessment";
+	}
+	
 	}
 
-}
+
